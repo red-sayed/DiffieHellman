@@ -4,7 +4,7 @@
 
 ## What is it?
 
-This is an implementation of DiifieHellman key exchange that works with very long inegers(2468 chars long, look at a screenshot above this text or below). You also can find an example file at this repository with it's description. It is a part of [RedLibrary](https://github.com/Red-company/RedLibrary).
+This is an implementation of DiifieHellman key exchange protocol that works with very long inegers(2468 chars long, look at the screenshot that is placed above this text or below). You also can find an example file at this repository with it's description. It is a part of [RedLibrary](https://github.com/Red-company/RedLibrary).
 
 ## How it works?
 
@@ -54,7 +54,7 @@ P = -1; // Just getting the max value.
 g = 3;  // Base number, in fact, it's better to use 2.
 ```
 Yeah, we're working with exponent, because it's 'easy' to calculate it but it's difficult to get sqrt from that.
-* 2.-3.) We're calculating our public keys with the following formula:
+* 2.-3.) We're calculating our public keys with the following formulas:
 ```C
 A = g**a mod P // For Alice.
 B = g**b mod P // For Bob.
@@ -88,7 +88,7 @@ As you could understand, it can be used everywhere you need a secure channel(ser
 Good question, not difficult in fact:
 
 * 1.) We're getting the same keys.(Full DiffieHellman)
-* 2.) Now, we have the same keys. We need to get a encrypted channel, how to do that? My answers are here: <br/>
+* 2.) Now, we have the same keys. We need to get an encrypted channel, how to do that? My answers are here: <br/>
 ** 1.) [AES standard](https://github.com/vladimirrogozin/AES_Implementation). <br/>
 ** 2.) [RES standard (mine one)](https://github.com/Red-company/RES_Implementation). <br/>
 You can use DH shared key as a key or to make it x2 longer with [my simple encryption algorithm(Va1)](https://github.com/vladimirrogozin/Va1) or to get a hash, cut/expand it to the length you need([Sha256](https://github.com/vladimirrogozin/Sha256)).
