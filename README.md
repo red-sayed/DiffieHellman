@@ -13,7 +13,7 @@ The simpliest way to describe how it works is to draw that, so, I did that, here
 ```
   _____     _____
  /     \   /     \
-|   m   | |   m   | - 1 Step. We have the same as I like to tell 'trash values'.
+|   m   | |   m   | - 1 Step. We have the same values at the beginning.
  \_____/   \_____/
     |         |
   __|__     __|__
@@ -42,7 +42,7 @@ The simpliest way to describe how it works is to draw that, so, I did that, here
  \_____/   \_____/
 ```
 
-So, you have successfully traced the 'fingered-edition' DiffieHellman, but we're here for something much more difficult and interesting, you're here for education, doesn't it? ;) <br/><br/>
+So, you have successfully traced the 'fingered-edition' DiffieHellman, but we're here for something much more difficult and interesting, you're here for education, not for code, doesn't it? ;) <br/><br/>
 
 I'm joking, it's 'safed' by MIT Licence, it's fully your's. <br/><br/>
 
@@ -73,7 +73,7 @@ S2 = A**b mod P // For Bob.
 S1 = S2
 ```
 
-Congratulations! Now, you understand how it works, don't you want to see some examples? Look at the screenshots below.<br/>
+Congratulations! We did that! Now, you understand how it works, don't you want to see some examples? Look at the screenshots below.<br/>
 
 ![plot](./Screenshots/DiffieHellman_test2.png)
 
@@ -91,7 +91,7 @@ Good question, not difficult in fact:
 * 2.) Now, we have the same keys. We need to get an encrypted channel, how to do that? My answers are here: <br/>
 ** 1.) [AES standard](https://github.com/vladimirrogozin/AES_Implementation). <br/>
 ** 2.) [RES standard (mine one)](https://github.com/Red-company/RES_Implementation). <br/>
-You can use DH shared key as a key or to make it x2 longer with [my simple encryption algorithm(Va1)](https://github.com/vladimirrogozin/Va1) or to get a hash, cut/expand it to the length you need([Sha256](https://github.com/vladimirrogozin/Sha256)).
+You can use DH shared key as a key or to make it x2 longer with [my simple encryption algorithm(Va1)](https://github.com/vladimirrogozin/Va1) or to get a hash, and cut/expand it to the length you need([Sha256](https://github.com/vladimirrogozin/Sha256)).
 
 ## Notes:
 
