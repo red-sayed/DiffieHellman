@@ -6,6 +6,9 @@
 
 This is an implementation of DiifieHellman key exchange protocol that works with very long inegers(2468 chars long, look at the screenshot that is placed above this text or below). You also can find an example file at this repository with it's description. It is a part of [RedLibrary](https://github.com/Red-company/RedLibrary).
 
+## WARNING:
+This repository was the first version of DiffieHellman, for a newer one check [RedLibrary](https://github.com/Red-company/RedLibrary).
+
 ## How it works?
 
 The simpliest way to describe how it works is to draw that, so, I did that, here it is:
