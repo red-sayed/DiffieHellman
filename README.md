@@ -98,10 +98,10 @@ You can use DH shared key as a key or to make it x2 longer with [my simple encry
 
 ## Notes:
 
-* Prime number 2568 chars long)
+* Prime number is 2568 chars long.
 * You need to have boost lib installed to work with this repository.
 * It's rather fast.
-* If you need ypu can make the Prime number longer, but before that you'll have to make a new integer type.
+* If it's needed you can make the Prime number longer, but before that, you'll have to make a new integer type.
 
 ##
 All material in this repository is in the public domain.
