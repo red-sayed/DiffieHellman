@@ -4,10 +4,10 @@
 
 ## What is it?
 
-This is an implementation of DiifieHellman key exchange protocol that works with very long inegers(2468 chars long, look at the screenshot that is placed above this text or below). You also can find an example file at this repository with it's description. It is a part of [RedLibrary](https://github.com/Red-company/RedLibrary).
+This is an implementation of _DiifieHellman_ key exchange protocol that works with very long inegers(2468 chars long, look at the screenshot that is placed above this text or below). You also can find an example file at this repository with it's description. It is a part of [_RedLibrary_](https://github.com/Red-company/RedLibrary).
 
 ## WARNING:
-This repository was the first version of DiffieHellman, for a newer one check [RedLibrary](https://github.com/Red-company/RedLibrary).
+This repository was the first version of _DiffieHellman_, for a newer one check [_RedLibrary_](https://github.com/Red-company/RedLibrary).
 
 ## How it works?
 
@@ -45,18 +45,18 @@ The simpliest way to describe how it works is to draw that, so, I did that, here
  \_____/   \_____/
 ```
 
-So, you have successfully traced the 'fingered-edition' DiffieHellman, but we're here for something much more difficult and interesting, you're here for education, not for code, doesn't it? ;) <br/><br/>
+So, you have successfully traced the _'fingered-edition'_ _DiffieHellman_, but we're here for something much more difficult and interesting, you're here for education, not for code, doesn't it? ;) <br/><br/>
 
 I'm joking, it's 'safed' by MIT Licence, it's fully your's. <br/><br/>
 
 Let's get back to the funny math. Let's describe it by steps I drew before:
 
-* 1.)   It's like 0 position, needn't to describe it. Just getting a 'Prime number', base number(it's named 'g') and getting some random keys.
+* 1.)   It's like 0 position, needn't to describe it. Just getting a _'Prime number'_, base number(it's named _'g'_) and getting some random keys.
 ```C
 P = -1; // Just getting the max value.
 g = 3;  // Base number, in fact, it's better to use 2.
 ```
-Yeah, we're working with exponent, because it's 'easy' to calculate it but it's difficult to get sqrt from that.
+Yeah, we're working with exponent, because it's _'easy'_ to calculate it but it's difficult to get sqrt from that.
 * 2.-3.) We're calculating our public keys with the following formulas:
 ```C
 A = g**a mod P // For Alice.
@@ -90,11 +90,11 @@ As you could understand, it can be used everywhere you need a secure channel(ser
 
 Good question, not difficult in fact:
 
-* 1.) We're getting the same keys.(Full DiffieHellman)
+* 1.) We're getting the same keys.(Full _DiffieHellman_)
 * 2.) Now, we have the same keys. We need to get an encrypted channel, how to do that? My answers are here: <br/>
-** 1.) [AES standard](https://github.com/vladimirrogozin/AES_Implementation). <br/>
-** 2.) [RES standard (mine one)](https://github.com/Red-company/RES_Implementation). <br/>
-You can use DH shared key as a key or to make it x2 longer with [my simple encryption algorithm(Va1)](https://github.com/vladimirrogozin/Va1) or to get a hash, and cut/expand it to the length you need([Sha256](https://github.com/vladimirrogozin/Sha256)).
+** 1.) [_AES standard_](https://github.com/vladimirrogozin/AES_Implementation). <br/>
+** 2.) [_RES standard (mine one)_](https://github.com/Red-company/RES_Implementation). <br/>
+You can use _DH_ shared key as a key or to make it x2 longer with [_my simple encryption algorithm(Va1)_](https://github.com/vladimirrogozin/Va1) or to get a hash, and _cut/expand_ it to the length you need([_Sha256_](https://github.com/vladimirrogozin/Sha256)).
 
 ## Notes:
 
