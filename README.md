@@ -93,12 +93,12 @@ Good question, not difficult in fact:
 ** 2.) [_RES standard (mine one)_](https://github.com/Red-company/RES_Implementation). <br/>
 You can use _DH_ shared key as a key or to make it x2 longer with [_my simple encryption algorithm(Va1)_](https://github.com/vladimirrogozin/Va1) or to get a hash, and _cut/expand_ it to the length you need([_Sha256_](https://github.com/vladimirrogozin/Sha256)).
 
-## Notes:
-
-* Prime number is 2568 chars long.
-* You need to have boost lib installed to work with this repository.
-* It's rather fast.
-* If it's needed you can make the Prime number longer, but before that, you'll have to make a new integer type.
+##
+**Notes:**
+ * _P_ number (_prime one_) works stable with 19729 characters long (From _'RedTypes.h'_: _'Red::uint65536_t'_).
+ * Needs to understand that the time of calculation rises as the secret key value rises.
+ * Tested with _Asecret_=7000000 and _Bsecret_=90, but takes a lot of time to calculate.
+ * _Secret key_ is restricted by uint max size in power function(function from boost is used there).
 
 ##
 All material in this repository is in the public domain.
