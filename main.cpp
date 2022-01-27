@@ -46,5 +46,17 @@ int main() {
 
     std::cout << "Time: " << std::to_string(duration.count()) << std::endl << std::endl;
 
+    // How to use one more time the DH object?
+    //
+    // Like this:
+    //
+    // Alice.Set(-newG-,-newP-,-newA-);
+
+    // Freeing up memory.
+    delete x;
+    delete y;
+    delete ka;
+    delete kb;
+
     return 0;
 }
