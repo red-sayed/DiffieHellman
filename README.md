@@ -6,7 +6,7 @@
 
 This is an implementation of _DiifieHellman_ key exchange _protocol_ that works with _very long inegers_(19.729 chars long, can work with bigger ones, look at the screenshot that is placed above this text or below). You also can find an _example file(main.cpp)_ at this repository with it's description. <br/>
 
-Advanced DiffieHellman is [_here_.](https://github.com/vladimirrogozin/2layerDiffieHellman)<br/>
+Advanced DiffieHellman is [_here_.](https://github.com/red-sayed/2layerDiffieHellman)<br/>
 It is also a part of [_RedLibrary_](https://github.com/Red-company/RedLibrary).
 
 ## How it works?
@@ -127,9 +127,9 @@ Good question, not difficult in fact:
 
 * 1.) We're getting the same keys.(Full _DiffieHellman_)
 * 2.) Now, we have the same keys. We need to get an encrypted channel, how to do that? My answers are here: <br/>
-** 1.) [_AES standard_](https://github.com/vladimirrogozin/AES_Implementation). <br/>
+** 1.) [_AES standard_](https://github.com/red-sayed/AES_Implementation). <br/>
 ** 2.) [_RES standard (mine one)_](https://github.com/Red-company/RES_Implementation). <br/>
-You can use _DH_ shared key as a key or to make it x2 longer with [_my simple encryption algorithm(Va1)_](https://github.com/vladimirrogozin/Va1) and after that use the result to get a hashed sum, or to get a hash, and _cut/expand_ it to the length you need([_Sha256_](https://github.com/vladimirrogozin/Sha256)).
+You can use _DH_ shared key as a key or to make it x2 longer with [_my simple encryption algorithm(Va1)_](https://github.com/red-sayed/Va1) and after that use the result to get a hashed sum, or to get a hash, and _cut/expand_ it to the length you need([_Sha256_](https://github.com/red-sayed/Sha256)).
 
 ##
 **Notes:**
