@@ -115,9 +115,9 @@ Or another test - about 60 seconds:
 
 Or the one you want to see: <br/>
 
-|               Task                | Time(seconds) |
+|               Task                | Time |
 |-----------------------------------|---------------|
-| 2 ** 3.005.400.000 (not using _P_) | haven't calculated sorry, but it works |
+| 2 ** 3.005.400.000 (not using _P_) | about 20 minutes |
 
 So, if you want to use any of these nums, you have to calculate ~time you would like to spend(paper math, yo), and, of course, use the _sqrt(Akey * Bkey)_ as a range of _rand()_ or _Red::Randomizer()_ in your application(_+2!!!!_ Of course, bcs, that's the way to _make DH possible_).
 
